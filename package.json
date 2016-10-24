@@ -1,0 +1,23 @@
+{
+  "name": "jslibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwnktks0515/JsLibrary.git"
+  },
+  "author": "",
+  "license": "MIT",
+    "devDependencies": {
+    "codeclimate-test-reporter": "*",
+    "istanbul":"*"
+  },
+  "bugs": {
+    "url": "https://github.com/kwnktks0515/JsLibrary/issues"
+  },
+  "homepage": "https://github.com/kwnktks0515/JsLibrary#readme"
+}

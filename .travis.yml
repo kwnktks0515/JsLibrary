@@ -1,0 +1,13 @@
+
+language: node_js
+sudo: true
+node_js:
+  - "6.7.0"
+addons:
+  code_climate:
+    repo_token: 12f25b39dea1a1503a2c44612d7adc24cbae56159fd47cb51cfa149a862c3960
+script:
+  - node index.js
+after_success:
+  - istanbul cover test/test.js
+  - codeclimate-test-reporter < ./coverage/lcov.info
